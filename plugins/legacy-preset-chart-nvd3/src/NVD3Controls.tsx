@@ -210,7 +210,7 @@ export const xAxisFormat: CustomControlItem = {
     freeForm: true,
     label: t('X Axis Format'),
     renderTrigger: true,
-    choices: D3_TIME_FORMAT_OPTIONS,
+    choices: D3_FORMAT_OPTIONS,
     default: 'smart_date',
     description: D3_FORMAT_DOCS,
   },
